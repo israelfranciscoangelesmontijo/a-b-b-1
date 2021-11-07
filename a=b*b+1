@@ -1,0 +1,16 @@
+*EJERCICIOS 3 DE NOVIEMBRE DEL 2021
+ISRAEL FRANCISCO ANGELES MONTIJO
+PROGRAMACION EN C*/
+#include <stdio.h>
+main()
+{
+int a, b=0;
+a=b*b+1;
+printf("si b=%d, entonces a=%d\n", b, a);
+b=2;
+a=b*b+1;/*AÑADIR LA OPERACION EN LA NUEVA DEFINICION DE VARIABLES*/
+printf("si b=%d, entonces a=%d\n", b, a);
+b=-2;
+a=b*b+1;
+printf("si b=%d, entonces a=%d\n", b, a);	
+}
